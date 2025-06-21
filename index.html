@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallagher Supreme Motor</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: #fff;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #b80000 60%, #ff4747 100%);
+            color: #fff;
+            padding: 2rem 1rem 1rem 1rem;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            font-family: 'Permanent Marker', cursive;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+        .payments-header {
+            margin: 0.5rem 0 1rem 0;
+            font-size: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .payment-header {
+            background: #fff;
+            color: #b80000;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            padding: 0.2rem 0.7rem;
+            font-size: 0.95rem;
+            margin-left: 0.2rem;
+            font-weight: 600;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffd6d6;
+        }
+        .main-columns {
+            display: flex;
+            max-width: 1200px;
+            margin: 2rem auto;
+            gap: 2rem;
+        }
+        .sidebar {
+            flex: 0 0 220px;
+            background: #fff5f5;
+            border-radius: 10px;
+            padding: 1.5rem 1rem;
+            box-shadow: 0 1px 6px rgba(184,0,0,0.06);
+            min-height: 400px;
+        }
+        .sidebar h3 {
+            color: #b80000;
+            margin-top: 0;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 1rem;
+        }
+        .sidebar ul li a {
+            color: #b80000;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .sidebar ul li a:hover {
+            color: #ff4747;
+        }
+        .main {
+            flex: 1 1 0;
+            max-width: 900px;
+            margin: 0;
+            padding: 2rem;
+            background: #fafafa;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(184,0,0,0.08);
+        }
+        .cta {
+            background: #b80000;
+            color: #fff;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: background 0.2s;
+        }
+        .cta:hover {
+            background: #ff4747;
+        }
+        footer {
+            text-align: center;
+            color: #888;
+            font-size: 0.95rem;
+            margin: 2rem 0 1rem 0;
+        }
+        @media (max-width: 900px) {
+            .main-columns {
+                flex-direction: column;
+            }
+            .sidebar {
+                min-height: unset;
+                margin-bottom: 1.5rem;
+            }
+        }
+    </style>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Gallagher Supreme Motor</div>
+        <div class="subtitle">Your trusted source for auction cars, dealer tags, and more!</div>
+        <div class="payments-header">
+            <span>We accept: </span>
+            <span class="payment payment-header">PayPal</span>
+            <span class="payment payment-header">Cash App</span>
+            <span class="payment payment-header">Apple Pay</span>
+            <span class="payment payment-header">Zelle</span>
+            <span class="payment payment-header">Venmo</span>
+            <span class="payment payment-header">Bitcoin</span>
+        </div>
+        <nav>
+            <a href="#auction">Auction Passes</a>
+            <a href="#tags">Dealer & VA Tags</a>
+            <a href="#virtual">Virtual Office</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="main-columns">
+        <aside class="sidebar left">
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="#auction">Auction Access Passes</a></li>
+                <li><a href="#tags">Dealer Tags</a></li>
+                <li><a href="#tags">Virginia Tags</a></li>
+                <li><a href="#tags">Mail Tags</a></li>
+                <li><a href="#virtual">Virtual Office</a></li>
+            </ul>
+        </aside>
+        <div class="main">
+            <h1>Welcome to Gallagher Supreme Motor</h1>
+            <p><strong>Motto:</strong> Driven by Integrity, Powered by Service.</p>
+            <p>At Gallagher Supreme Motor, we are dedicated to providing you with a seamless, trustworthy, and modern car buying experience. Whether you need auction access, dealer tags, or virtual office services, our mission is to make every step easy and transparent.</p>
+            <h2>Our Commitment</h2>
+            <ul>
+                <li><strong>Good Business Practices:</strong> Honesty, transparency, and reliability in every transaction.</li>
+                <li><strong>Customer Service Guarantee:</strong> We stand behind every service we offer. Your satisfaction is our top priority.</li>
+                <li><strong>Flexible Scheduling:</strong> Schedule anytime, from anywhere—online or by phone—and we’ll make it happen for you.</li>
+                <li><strong>Convenience:</strong> Access our services virtually or in person, with multiple payment options to fit your needs.</li>
+            </ul>
+            <p>Join our growing family of satisfied customers and experience the Gallagher Supreme Motor difference. We’re here to help you succeed, every step of the way.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Gallagher Supreme Motor. All rights reserved.
+    </footer>
+</body>
+</html>
